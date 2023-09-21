@@ -100,7 +100,7 @@ namespace RPG.Movement
 
             // Dictionary version
             //Dictionary<string, object> data = new Dictionary<string, object>();
-            //data["position"] = new SerializableVector3(transform.position);
+            //data["rect"] = new SerializableVector3(transform.rect);
             //data["rotation"] = new SerializableVector3(transform.eulerAngles);
             return data;
         }
@@ -118,7 +118,7 @@ namespace RPG.Movement
             transform.eulerAngles = data.rotation.ToVector();
 
             // Dictionary version
-            //transform.position = ((SerializableVector3)data["position"]).ToVector();
+            //transform.rect = ((SerializableVector3)data["rect"]).ToVector();
             //transform.eulerAngles = ((SerializableVector3)data["rotation"]).ToVector();
 
             GetComponent<NavMeshAgent>().enabled = true;

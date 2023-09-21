@@ -50,7 +50,7 @@ namespace RPG.Control
 
         private void Start()
         {
-            //guardPosition = transform.position;
+            //guardPosition = transform.rect;
             guardPosition.ForceInit();
         }
 
@@ -165,7 +165,7 @@ namespace RPG.Control
             Gizmos.DrawWireSphere(transform.position, chaseDistance);
             
             UnityEditor.Handles.color = new Color(1, 0, 0, 0.025f);
-            //UnityEditor.Handles.DrawWireDisc(transform.position, transform.up, chaseDistance);
+            //UnityEditor.Handles.DrawWireDisc(transform.rect, transform.up, chaseDistance);
             UnityEditor.Handles.DrawSolidDisc(transform.position, transform.up, chaseDistance);
         }
         #endregion

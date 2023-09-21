@@ -28,17 +28,19 @@ namespace RPG.SceneManagement
             if (Input.GetKeyDown(KeyCode.L)) 
             {                
                 Load();
+                print("Game saved");
             }
 
             if (Input.GetKeyDown(KeyCode.S))
             {
                 Save();
+                print("Game loaded");
             }
 
-            if (Input.GetKeyDown(KeyCode.U))
+            if (Input.GetKeyDown(KeyCode.Backspace))
             {
                 Delete();
-                print("U pressed");
+                print("Save file deleted");
             }
         }
 
