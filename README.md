@@ -101,5 +101,14 @@ https://drive.google.com/file/d/1fra7tgRm48olCzzG51hJHlJ-yi1T-iF5/view?usp=drive
 https://drive.google.com/file/d/1hH-XFpG-SF69rDXRggG5CDiRH5HDf1AJ/view?usp=drive_link
   
   
-## Inventory Module  
+## Inventory Module   
   
+[Inventory foundation]  
+
+- UI for general inventory  
+- Scroll view and grid displays  
+- Drag and drop system (within inventory slot)  
+- Swap item slot  
+- snap back position when not in expected slot  
+- Show and hide all UI  
+https://drive.google.com/file/d/1PzZQI-4MtA8OIsLc3YYTSJZMkWYiQ3wm/view?usp=drive_link  
